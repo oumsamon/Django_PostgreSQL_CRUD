@@ -30,7 +30,7 @@ the next morning by 9:00am.
 ### Models + Migrations
 
 Create
-[models](https://git.generalassemb.ly/dc-wdi-python-django/django-models#models)
+[models](https://git.generalassemb.ly/seir-323/django-models#models)
 for Post and Comment
 
 A `Post` should have the following fields:
@@ -46,7 +46,7 @@ A `Comment` should have the following fields:
 * `post` (`ForeignKey` for `Post`)
 
 Create
-[migrations](https://git.generalassemb.ly/dc-wdi-python-django/django-models#migrations)
+[migrations](https://git.generalassemb.ly/seir-323/django-models#migrations)
 for Post and Comment
 
 ### Templates
