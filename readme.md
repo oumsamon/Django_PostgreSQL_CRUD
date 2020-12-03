@@ -22,8 +22,7 @@ the best content all around the world.
 Build your Django application in the root of this repository. When asked if you
 want to overwrite the readme, enter "n" (for no).
 
-Unless otherwise specified on the calendar or by an instructor, homework is due
-the next morning by 9:00am.
+This assignment is due Monday at 10 am ET via PR on the repository.
 
 ## Requirements
 
