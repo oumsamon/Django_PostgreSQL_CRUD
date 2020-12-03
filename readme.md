@@ -19,7 +19,7 @@ the best content all around the world.
 1. Change into the new directory and check out a dev branch.
 1. Fulfill the listed requirements.
 
-Build your Django application in the root of this repository. This exercise will require you to refer back to our previous lecture notes in order to set up a . To see the steps for setting up a Django app with a Postgres database, refer back to our Tunr setup [instructions](https://git.generalassemb.ly/sei-921/django-installation). 
+Build your Django application in the root of this repository. This exercise will require you to refer back to our previous lecture notes in order to set up a Django app from scratch. To see the steps for setting up a Django app with a Postgres database, refer back to our Tunr setup [instructions](https://git.generalassemb.ly/sei-921/django-installation). 
 
 When asked if you want to overwrite the readme, enter "n" (for no).
 
