@@ -16,20 +16,21 @@ the best content all around the world.
 ## Instructions
 
 1. Fork and clone this repository.
-1. Change into the new directory.
+1. Change into the new directory and check out a dev branch.
 1. Fulfill the listed requirements.
 
-Build your Django application in the root of this repository. When asked if you
-want to overwrite the readme, enter "n" (for no).
+Build your Django application in the root of this repository. This exercise will require you to refer back to our previous lecture notes in order to set up a . To see the steps for setting up a Django app with a Postgres database, refer back to our Tunr setup [instructions](https://git.generalassemb.ly/sei-921/django-installation). 
 
-This assignment is due Monday at 10 am ET via PR on the repository.
+When asked if you want to overwrite the readme, enter "n" (for no).
+
+**This assignment is due Monday at 10 am ET via PR on the repository.**
 
 ## Requirements
 
 ### Models + Migrations
 
 Create
-[models](https://git.generalassemb.ly/seir-323/django-models#models)
+[models](https://git.generalassemb.ly/sei-921/django-models#models)
 for Post and Comment
 
 A `Post` should have the following fields:
@@ -45,7 +46,7 @@ A `Comment` should have the following fields:
 * `post` (`ForeignKey` for `Post`)
 
 Create
-[migrations](https://git.generalassemb.ly/seir-323/django-models#migrations)
+[migrations](https://git.generalassemb.ly/sei-921/django-models#migrations)
 for Post and Comment
 
 ### Templates
