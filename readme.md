@@ -23,7 +23,7 @@ Build your Django application in the root of this repository. This exercise will
 
 When asked if you want to overwrite the readme, enter "n" (for no).
 
-**This assignment is due Monday at 10 am ET via PR on the repository.**
+**This assignment is due Friday at 9am ET via Pull Request on the repository.**
 
 ## Requirements
 
