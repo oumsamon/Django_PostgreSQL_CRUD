@@ -63,6 +63,9 @@ Your Scribble app will need the following templates:
 5. Deletion: Allow the user to delete existing posts and comments.  You can add
    this form or link in the detail view for posts.
 
+## Resources
+Django documentation for [Models](https://docs.djangoproject.com/en/2.1/topics/db/models/). 
+
 ## Plagiarism
 
 Take a moment to refamiliarize yourself with the [Plagiarism policy](https://git.generalassemb.ly/DC-WDI/Administrative/blob/master/plagiarism.md). Plagiarized work will not be accepted.
