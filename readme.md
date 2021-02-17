@@ -64,7 +64,7 @@ Your Scribble app will need the following templates:
    this form or link in the detail view for posts.
 
 ## Resources
-Django documentation for [Models](https://docs.djangoproject.com/en/2.1/topics/db/models/). 
+Django documentation for [Models](https://docs.djangoproject.com/en/2.1/topics/db/models/) and [Migrations](https://docs.djangoproject.com/en/2.1/topics/migrations/). 
 
 ## Plagiarism
 
