@@ -1,0 +1,8 @@
+{  
+    "python.defaultInterpreterPath": "/Users/airsam/.local/share/virtualenvs/scribble-0UAUNZ6V/bin/pip",
+    
+    "python.linting.pylintArgs": [
+    "--load-plugins=pylint_django",
+    "--disable=missing-docstring,invalid-name"
+  ]
+}
