@@ -12,3 +12,6 @@ def post_list(request):
     return render(request, 'scribble/post_list.html', {'posts': posts})
 
 
+def post_detail(request, pk):
+    post = Post.objects.get(id=pk)
+    return render(request, 'scribble/post_detail.html', {'post': post})

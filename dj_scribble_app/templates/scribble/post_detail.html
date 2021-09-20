@@ -1,0 +1,12 @@
+<h2>{{ post.author }} <a href="">(edit)</a></h2>
+<h4>{{ post.title }}</h4>
+
+
+<h3>Comment <a href="">(+)</a></h3>
+<ul>
+  {% for comment in post.comments.all %}
+  <li>
+    <a href="">{{ comment.author }}-{{ comment.body }}</a>
+  </li>
+  {% endfor %}
+</ul>
