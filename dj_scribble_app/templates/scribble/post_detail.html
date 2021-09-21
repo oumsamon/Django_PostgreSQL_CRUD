@@ -5,9 +5,9 @@
 
 <h3>Comment <a href="">(+)</a></h3>
 <ul>
-  {% for comment in post.comments.all %}
+  {% for each in post.comments.all %}
   <li>
-    <a href="">{{ comment.author }}-{{ comment.body }}</a>
+    <a href="">{{ each.author }}-{{ each.body }}</a>
   </li>
   {% endfor %}
 </ul>

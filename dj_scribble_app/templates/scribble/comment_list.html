@@ -2,7 +2,7 @@
 <ul>
   {% for comment in comments %}
   <li>
-    <a href="">{{ comment.body }}</a>
+    <a href="{% url 'comment_detail' pk=comment.pk %}">{{ comment.body }}</a>
   </li>
   {% endfor %}
 </ul>
