@@ -1,4 +1,5 @@
-<h2>{{ post.author }} <a href="">(edit)</a></h2>
+<h2>{{ post.author }} <a href="{% url 'post_edit' pk=post.pk %}">(edit)</a></h2>
+<h2><a href="{% url 'post_delete' pk=post.pk %}">(delete)</a></h2>
 <h4>{{ post.title }}</h4>
 
 
