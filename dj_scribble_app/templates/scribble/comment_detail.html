@@ -1,4 +1,7 @@
-<h3>Comment <a href="">(+)</a></h3>
+<h3>Comment <a href="{% url 'comment_create' %}">(add new comment here)</a></h3>
+<h3> <a href="{% url 'comment_edit' pk=comment.pk%}">(Edit)</a></h3>
+<h3><a href="{% url 'comment_delete' pk=comment.pk %}">(delete)</a></h3>
+<h4><a href="{% url 'post_list' %}">Home</a></h4>
 <ul>
 
   <li>

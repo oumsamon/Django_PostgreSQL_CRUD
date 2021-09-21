@@ -62,7 +62,7 @@ def comment_create(request):
     return render(request, 'scribble/comment_form.html', {'form': form})
 
 def comment_edit(request, pk):
-    comment = Post.objects.get(pk=pk)
+    comment = Post.objects.get(id=pk)
     if request.method == 'POST':
         form = CommentForm(request.POST, instance=comment)
         if form.is_valid():

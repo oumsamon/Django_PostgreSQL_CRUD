@@ -7,7 +7,7 @@
 <ul>
   {% for each in post.comments.all %}
   <li>
-    <a href="">{{ each.author }}-{{ each.body }}</a>
+    <a href="comments/">{{ each.author }}-{{ each.body }}</a>
   </li>
   {% endfor %}
 </ul>
