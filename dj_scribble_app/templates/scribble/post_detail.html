@@ -1,7 +1,7 @@
 <h2>{{ post.author }} <a href="{% url 'post_edit' pk=post.pk %}">(edit)</a></h2>
-<h2><a href="{% url 'post_delete' pk=post.pk %}">(delete)</a></h2>
+<h4><a href="{% url 'post_delete' pk=post.pk %}">(delete)</a></h4>
 <h4>{{ post.title }}</h4>
-
+<h4><a href="{% url 'post_list' %}">Home</a></h4>
 
 <h3>Comment <a href="">(+)</a></h3>
 <ul>
